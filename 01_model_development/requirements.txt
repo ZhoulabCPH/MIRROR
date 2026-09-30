@@ -1,0 +1,15 @@
+# Core feature loading, numerical analysis, and logging dependencies.
+# Versions are not pinned because this source review does not execute the environment.
+torch
+numpy
+pandas
+h5py
+PyYAML
+scikit-learn
+lifelines
+python-docx
+
+# Optional image augmentation and residual-network utilities.
+torchvision
+opencv-python
+Pillow
