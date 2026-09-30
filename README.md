@@ -1,6 +1,9 @@
 # MIRROR
 
-MIRROR is a multimodal framework for predicting homologous recombination deficiency (HRD) from whole-slide image (WSI) embeddings and RNA expression features. It combines gated attention pooling, an RNA encoder, bidirectional cross-attention, and learned representations for unavailable modalities.
+We developed MIRROR (Multimodal Integration of RepreSentations for HRD prediction), a multimodal deep learning framework for patient-level prediction of HRD status from whole-slide images (WSIs) and gene expression profiles (GEPs) 
+<p align="center">
+  <img src="assets/graphical_abstract.png" alt="HistoProt graphical abstract" width="1000">
+</p>
 
 The repository covers three major stages:
 
